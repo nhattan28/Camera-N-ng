@@ -112,9 +112,8 @@ function createVideoElement(videoId, title, index) {
   iframe.allowFullscreen = true;
 
   const btn = document.createElement('button');
-  btn.className = 'btn-audio';
-  btn.innerText = '🔊 Bật âm';
-  btn.onclick = () => unmuteVideo(index);
+
+
 
   const caption = document.createElement('div');
   caption.className = 'caption';
